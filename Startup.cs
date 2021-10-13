@@ -29,6 +29,7 @@ namespace PlatformService
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddScoped<IPlatformRepo, PlatformRepo>();
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             services.AddSwaggerGen(c =>
@@ -57,6 +58,8 @@ namespace PlatformService
             {
                 endpoints.MapControllers();
             });
+
+            PrepDb.PrepPopulation(app);
         }
     }
 }
