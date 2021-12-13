@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj": {}
+    "C:\\users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj": {
+    "C:\\users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj",
+        "projectPath": "C:\\users\\josh\\Documents\\repos\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\josh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josh\\Documents\\repos\\PlatformService\\obj\\",
+        "outputPath": "C:\\users\\josh\\Documents\\repos\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
