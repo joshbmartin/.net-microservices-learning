@@ -31,6 +31,7 @@ namespace PlatformService
 
             services.AddScoped<IPlatformRepo, PlatformRepo>();
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             services.AddSwaggerGen(c =>
             {
