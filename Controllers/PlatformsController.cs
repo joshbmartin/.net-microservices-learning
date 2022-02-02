@@ -31,5 +31,15 @@ namespace PlatformService.Controllers
             //we're going to use automapper to map our models to our read dtos and return that back 
             return Ok(_mapper.Map<IEnumerable<PlatformReadDto>>(platformItem));
         }
+        [HttpGet("{id}", Name = "GetPlatformById")]
+        public ActionResult<PlatformReadDto> GetPlatformById(int id)
+        {
+            var platformItem = _repository.GetPlatformById(id);
+            if (platformItem != null)
+            {
+                return Ok(_mapper.Map<PlatformReadDto>(platformItem));
+            }
+            return NotFound();
+        }
     }
 }
